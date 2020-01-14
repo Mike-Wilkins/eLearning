@@ -4,4 +4,4 @@ This prototype is intended to provide teachers with a KWL support tool, which ac
 
 [Application Link](http://kwsapp-env.hvxtdpw5gr.us-east-2.elasticbeanstalk.com/htdocs/login.php)
 
-![](images/KWL_options.png)
+![](images/KWL_options_pics.png)
