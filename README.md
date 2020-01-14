@@ -4,4 +4,4 @@ The design structure and inspiration for this prototype is primarily based on Do
 
 [Application Link](http://kwsapp-env.hvxtdpw5gr.us-east-2.elasticbeanstalk.com/htdocs/login.php)
 
-![](images/owl_teacher.png)
+![](images/)
