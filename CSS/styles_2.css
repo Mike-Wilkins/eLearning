@@ -1,0 +1,444 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#login_header {
+    background-color: rgb(233, 187, 245);
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 105px;
+}
+
+#home_header {
+    background-color: rgb(197, 64, 64);
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 105px;
+}
+.home-footer{
+    background-color: rgb(243, 136, 136);
+    
+}
+
+.nav-button {
+    color: aliceblue;
+    background-color: rgb(128, 167, 240);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 8px;
+}
+.nav-button:hover {
+    background-color: rgb(100, 108, 226);
+}
+
+.welcome-user {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    width: 25%;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    margin-top: 10px;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.student-login-display {
+
+    float: left; 
+    width: 10%;
+    background-color: rgb(234, 236, 236);
+    padding: 20px;
+    border-radius: 10px;
+    border: solid rgb(153, 18, 153) 2px;
+    box-shadow: 3px 3px #858383;
+    margin: 8px;
+}
+
+
+.kwl-display {
+    
+    float: left; 
+    width: 75%;
+    background-color: rgb(234, 236, 236);
+    padding: 10px;
+    border-radius: 10px;
+    border: solid rgb(153, 18, 153) 2px;
+    box-shadow: 3px 3px #858383;
+    margin: 8px;
+    
+}
+
+
+.subject-title {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 25px;
+    color: rgb(125, 240, 211);
+}
+.introduction{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.comment-display {
+    float: left; 
+    width: 20%;
+    background-color: rgb(234, 236, 236);
+    padding: 20px;
+    border-radius: 10px;
+    border: solid rgb(153, 18, 153) 2px;
+    box-shadow: 3px 3px #858383;
+    margin: 8px;
+}
+
+.chat {
+    float: left;
+    width: 26%;
+    background-color: rgb(234, 236, 236);
+    padding: 20px;
+    border-radius: 10px;
+    border: solid rgb(153, 18, 153) 2px;
+    box-shadow: 3px 3px #858383;
+    margin: 8px;
+    margin-left: 100px;
+}
+
+.websites {
+    float: left;
+    width: 40%;
+    background-color: rgb(234, 236, 236);
+    padding: 20px;
+    border-radius: 10px;
+    border: solid rgb(153, 18, 153) 2px;
+    box-shadow: 3px 3px #858383;
+    margin: 8px;
+   
+}
+
+
+#comments {
+    resize: none;
+    font-size: 13px;
+    padding: 10px;
+    width: 415px;
+    margin-bottom: 10px;
+}
+
+#comment_button {
+    color: aliceblue;
+    background-color: rgb(128, 167, 240);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    float: right;
+}
+
+#comment_button:hover {
+    background-color: rgb(100, 108, 226);
+}
+
+.titleformat{
+    font-size: 20px;
+    padding: 20px;
+}
+
+#comment_container {
+    font-size: 12px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(248, 248, 250);
+    width: 400px;
+    height: 100px;
+}
+.scroll_chats {
+    height: 400px; 
+    overflow: scroll;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: rgb(244, 229, 248);
+    padding: 30px;
+    width: 100%;
+}
+
+.kwltabs {
+    margin: auto;
+    border-bottom: 1px solid black;
+    width: 1300px;
+    padding: 0px 20px 0px 20px;
+    height: 64px;
+}
+
+.kwltabs ul {
+    padding: 0;
+    list-style: none;
+}
+
+.kwltabs ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+.kwltabs ul li a {
+    text-decoration: none;
+    color: rgb(21, 21, 22);
+    background: rgb(184, 184, 226);
+    border: 1px solid black;
+    border-bottom: none;
+    padding: 22px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    width: 110px;
+    display: block;
+}
+.kwltabs ul li a:hover {
+    background-color: rgb(146, 179, 223);
+}
+.kwltabs ul li a#onlink {
+    background: white;
+    color: black;
+    border-bottom: 1px solid white;
+
+}
+.kwltabs ul li a#onlink:hover {
+    background: white;
+    color: black;
+}
+
+.kwl-container {
+    margin: auto;
+    width: 1300px;
+    padding: 10px;
+    border: 1px solid black;
+    min-height: 600px;
+    border-top: none;
+    background: white;
+}
+
+
+.learned_comments {
+    float: left;
+    resize: none;
+    font-size: 15px;
+    padding: 10px;
+    width: 380px;
+    margin: 10px;
+}
+.weblink {
+    float: left;
+    resize: none;
+    font-size: 15px;
+    padding: 10px; 
+    margin: 10px;
+}
+
+#learned_button {
+    float: left;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(82, 109, 228);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+}
+#learned_button:hover {
+    background-color: rgb(65, 167, 226);
+}
+
+.filter_keyword {
+    float: right;
+    resize: none;
+    font-size: 15px;
+    padding: 10px;
+    width: 170px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#filter_button {
+    float: right;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(82, 109, 228);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#filter_button:hover {
+    background-color: rgb(65, 167, 226);
+}
+
+.display_student_work{
+    float: left;
+    width: 30%;
+    background-color: rgb(230, 230, 247);
+    border-radius: 10px;
+    border: solid rgb(153, 18, 153) 2px;
+    margin: 8px;
+    height: 500px;
+    overflow: scroll;
+}
+
+.list_title{
+    float: left;
+    width: 30%;
+    background-color: rgb(230, 230, 247);
+    border-radius: 10px;
+    border: solid rgb(153, 18, 153) 2px;
+    margin: 8px;
+    height: 60px;
+}
+.title_text {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(39, 5, 161);
+}
+
+.swap_comment {
+    background-color: rgb(187, 197, 241);
+    width: auto;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 12px;
+}
+
+.blackboard {
+    background-color: rgb(7, 7, 7); 
+    border: 4px solid #cc7a00; 
+    margin-top: 5px;
+}
+.student_guidance {
+    font-family: Comic Sans MS; 
+    color: rgb(248, 245, 245); 
+    padding: 8px;
+}
+
+.myteams {
+    background-color: rgb(246, 248, 250);
+    border-radius: 10px;
+    border: solid rgb(245, 213, 245) 2px;
+    padding: 0px;
+    padding-bottom: 12px;
+    padding-left: 45px;
+   
+    
+}
+
+.video_button {
+    width: 110px; 
+    height: 40px;
+    position: absolute; 
+    left: 1250px; 
+    top: 160px;
+}
+
+.video-display {
+    
+    background-color: rgb(13, 14, 14);
+    border-radius: 10px;
+    border: solid rgb(153, 18, 153) 2px;
+    box-shadow: 3px 3px #858383;
+    width: 1225px;
+    height: 800px;
+    padding: 10px;
+    position: absolute;
+    left: 360px;
+    top: 100px;
+    
+}
+
+.solo_button{
+    color: aliceblue;
+    background-color: rgb(128, 167, 240);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 18px;
+    margin-right: 8px;
+}
+.solo_button:hover {
+    background-color: rgb(100, 108, 226);
+}
+
+.return_to_class_button {
+    color: aliceblue;
+    background-color: rgb(128, 167, 240);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 18px;
+    margin-right: 175px;
+}
+.return_to_class_button:hover {
+   background-color: rgb(100, 108, 226);
+}
+
+
+.mkwltabs {
+    margin: auto;
+    border-bottom: 1px solid black;
+    width: 1300px;
+    padding: 0px 20px 0px 20px;
+    height: 64px;
+}
+
+.mkwltabs ul {
+    padding: 0;
+    list-style: none;
+}
+
+.mkwltabs ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+.mkwltabs ul li a {
+    text-decoration: none;
+    color: rgb(21, 21, 22);
+    background: rgb(184, 184, 226);
+    border: 1px solid black;
+    border-bottom: none;
+    padding: 22px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    width: 220px;
+    display: block;
+}
+.mkwltabs ul li a:hover {
+    background-color: rgb(146, 179, 223);
+}
+.mkwltabs ul li a#onlink {
+    background: white;
+    color: black;
+    border-bottom: 1px solid white;
+
+}
+.mkwltabs ul li a#onlink:hover {
+    background: white;
+    color: black;
+}
+  

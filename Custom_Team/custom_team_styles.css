@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#home_header {
+    background-color: rgb(197, 64, 64);
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 105px;
+}
+
+.home-footer{
+    background-color: rgb(243, 136, 136);
+    
+}
+
+.create_title {
+    text-align: center;
+    font-size: 38px;
+}
+
+.login_details {
+    font-size: 15px;
+    padding:8px 45px;
+    margin-left: 23%;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+.select_guest {
+    font-size: 15px;
+    padding:12px 45px;
+    margin-left: 23%;
+    margin-top: 15px;
+    border-radius: 4px;
+    width: 260px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 10px;
+}
+
+#login_submit {
+    color: aliceblue;
+    background-color: rgb(128, 167, 240);
+    font-size: 15px;
+    padding: 8px 35px;
+    border-radius: 10px;
+    margin-left: 34%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+#login_submit:hover {
+    background-color: rgb(100, 108, 226);
+}
+
+.nav-button {
+    color: aliceblue;
+    background-color: rgb(128, 167, 240);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 8px;
+}
+.nav-button:hover {
+    background-color: rgb(100, 108, 226);
+}
+
+.add-minus-button {
+    color: aliceblue;
+    background-color: rgb(128, 167, 240);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+.add-minus-button:hover {
+    background-color: rgb(100, 108, 226);
+}
+
+.welcome-user {
+    float: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 25%;
+}
+.KWL-images {
+    float: left;
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    
+}
+
+.welcome-class {
+    float: left;
+    color: rgb(209, 213, 248);
+    font-family: sans-serif;
+    font-size: 35px;
+    padding-left: 540px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    margin-top: 10px;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.customteam-display {
+
+    float: left; 
+    width: 30%;
+    background-color: rgb(234, 236, 236);
+    padding: 5px;
+    border-radius: 10px;
+    border: solid rgb(153, 18, 153) 2px;
+    box-shadow: 3px 3px #858383;
+    margin: 10px;
+    margin-top: 40px;
+    margin-left: 320px;
+    
+}
+
+.kwl-display {
+    
+    float: left; 
+    width: 64%;
+    background-color: rgb(234, 236, 236);
+    padding: 10px;
+    border-radius: 10px;
+    border: solid rgb(153, 18, 153) 2px;
+    box-shadow: 3px 3px #858383;
+    margin: 8px;
+    
+}
+
+.classroom-display {
+    float: left; 
+    color: rgb(5, 5, 5);
+    width: 30%;
+    background-color: rgb(252, 249, 249);
+    padding: 10px;
+    border-radius: 10px;
+    border: solid rgb(153, 18, 153) 2px;
+    box-shadow: 3px 3px #858383;
+    margin: 10px;
+    margin-left: 30px;
+    margin-top: 40px;
+    
+}
+.subject-title {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 27px;
+    color: rgb(128, 5, 145);
+}
+.introduction{
+    font-size: 17px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.introduction_ul{
+    font-size: 17px;
+    padding-left: 100px;
+    padding-right: 70px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: rgb(244, 229, 248);
+    padding: 30px;
+    width: 100%;
+}
+
+.myteams {
+    font-size: 18px;
+    background-color: rgb(246, 248, 250);
+    border-radius: 10px;
+    border: solid rgb(245, 213, 245) 2px;
+    padding-top: 30px;
+    text-align: center;
+    height: 470px;
+    overflow: auto;
+}
+.myteams_label {
+    font-size: 22px;
+    background-color: rgb(246, 248, 250);
+    border-radius: 10px;
+    border: solid rgb(245, 213, 245) 2px;
+    padding: 0px;
+    padding-bottom: 2px;
+    padding-left: 35px;
+}
+.custom_link {
+    
+    border-radius: 10px;
+    border: solid rgb(200, 206, 243) 2px;
+    padding: 3px;
+    background-color: rgb(215, 229, 250);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+.my_custom_teams {
+    float: left;
+    width: 33%;
+    font-size: 18px;
+    background-color: rgb(246, 248, 250);
+    border-radius: 10px;
+    border: solid rgb(245, 213, 245) 2px;
+    padding-top: 30px;
+    text-align: center;
+    height: 150px;
+}
+.custom_team_details {
+    background-color: rgb(246, 248, 250);
+    border-radius: 10px;
+    border: solid rgb(245, 213, 245) 2px;
+    padding-top: 5px;
+    
+}
+
+.guest_error {
+    width: 500px; 
+    height: 80px; 
+    position: absolute; 
+    left: 1350px; 
+    top: 290px;
+   
+}
+
+.guest_error_2 {
+    width: 500px; 
+    height: 80px; 
+    position: absolute; 
+    left: 1400px; 
+    top: 370px;
+}
+
+.team_error {
+    width: 500px; 
+    height: 80px; 
+    position: absolute; 
+    left: 1370px; 
+    top: 480px;
+   
+}
+
+@keyframes fadein {
+    0%, 100% {
+      opacity: 0;
+    }
+  
+    0% {
+      opacity: 1;
+      
+    }
+  
+  }
+  
+.fade{
+    opacity: 0;
+    animation: fadein 9s ease-in-out 0s 1;  
+   
+  }
