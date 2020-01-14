@@ -10,7 +10,7 @@ This prototype is intended to provide teachers with a KWL support tool, which ac
 |Paul    |omega|paul123   |
 |Zak     |omega|zak123    |
 
-<font size="+1">Description</font>
+######Test this font
 
 [Application Link](http://kwsapp-env.hvxtdpw5gr.us-east-2.elasticbeanstalk.com/htdocs/login.php)
 
