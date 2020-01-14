@@ -10,6 +10,24 @@ This prototype is intended to provide teachers with a KWL support tool, which ac
 |Paul    |omega|paul123   |
 |Zak     |omega|zak123    |
 
+<table>
+    <thead>
+        <tr>
+            <th align="left">Column1</th>
+            <th align="center">Column1</th>
+            <th align="right">Column1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="left">Column1</td>
+            <td align="center">Column1</td>
+            <td align="right">Column1</td>
+        </tr>
+    </tbody>
+</table>
+
+
 [Application Link](http://kwsapp-env.hvxtdpw5gr.us-east-2.elasticbeanstalk.com/htdocs/login.php)
 
 ![](images/)
