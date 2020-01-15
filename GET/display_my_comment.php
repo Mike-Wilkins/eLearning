@@ -14,7 +14,7 @@ $username = $_SESSION['username'];
         min-height: 70px;
         margin: 10px;
         padding: 12px;
-        
+    
         ">
             <?php echo $row['comment']?>
         </div>

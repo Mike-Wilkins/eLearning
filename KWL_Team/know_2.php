@@ -1,7 +1,7 @@
 <?php
     require('../dbconnect.php');
     $con = CreateConnection();
-    $dbtable = "know_comment";
+    $dbtable = "Know_Comment";
     $page = "../KWL_Team/know_2.php";
 ?>
 

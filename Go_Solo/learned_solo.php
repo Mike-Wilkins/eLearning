@@ -1,8 +1,8 @@
 <?php
     require('../dbconnect.php');
     $con = CreateConnection();
-    $dbtable = "learned_comment";
-    $dbtable_2 = "what_comment";
+    $dbtable = "Learned_Comment";
+    $dbtable_2 = "What_Comment";
     $page = "../Go_Solo/learned_solo.php";
     $discussion_table = "learned_discussion";
 ?>
@@ -155,7 +155,7 @@
 <div class="display_student_work" style="word-wrap: break-word; ">
    
                 <?php
-                $getsql = "SELECT * FROM what_comment ORDER BY id DESC";
+                $getsql = "SELECT * FROM What_Comment ORDER BY id DESC";
                 $data = $con -> query($getsql);
 
                 foreach($data AS $row){

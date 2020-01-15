@@ -1,7 +1,7 @@
 <?php
     require('../dbconnect.php');
     $con = CreateConnection();
-    $dbtable = "know_comment";
+    $dbtable = "Know_Comment";
     $page = "../Go_Solo/know_solo.php";
     $discussion_table = "know_discussion";
 

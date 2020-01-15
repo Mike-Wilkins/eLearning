@@ -1,8 +1,8 @@
 <?php
     require('../dbconnect.php');
     $con = CreateConnection();
-    $dbtable = "learned_comment";
-    $dbtable_2 = "what_comment";
+    $dbtable = "Learned_Comment";
+    $dbtable_2 = "What_Comment";
     $page = "../Go_Solo/learned_solo.php";
     $discussion_table = "learned_discussion";
 ?>

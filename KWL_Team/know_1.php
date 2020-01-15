@@ -2,10 +2,11 @@
     require('../dbconnect.php');
     $con = CreateConnection();
     $keyword_invalid = urldecode($_SERVER['QUERY_STRING']);
-    $dbtable = "know_comment";
+    $dbtable = "Know_Comment";
     $page = "../KWL_Team/know_1.php";
     $page2 = "know_2.php";
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">

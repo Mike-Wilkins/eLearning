@@ -1,8 +1,8 @@
 <?php
     require('../dbconnect.php');
     $con = CreateConnection();
-    $dbtable = "what_comment";
-    $dbtable_2 = "know_comment";
+    $dbtable = "What_Comment";
+    $dbtable_2 = "Know_Comment";
     $page = "../KWL_Team/what_1.php";
     $page2 = "what_2.php";
 ?>

@@ -1,8 +1,8 @@
 <?php
     require('../dbconnect.php');
     $con = CreateConnection();
-    $dbtable = "learned_comment";
-    $dbtable_2 = "what_comment";
+    $dbtable = "Learned_Comment";
+    $dbtable_2 = "What_Comment";
     $page = "../KWL_Team/learned.php";
     $discussion_table = "learned_discussion";
 ?>
@@ -156,7 +156,7 @@
 <div class="display_student_work" style="word-wrap: break-word; ">
    
                 <?php
-                $getsql = "SELECT * FROM what_comment ORDER BY id DESC";
+                $getsql = "SELECT * FROM What_Comment ORDER BY id DESC";
                 $data = $con -> query($getsql);
 
                 foreach($data AS $row){
@@ -183,7 +183,7 @@
                     $filter = $_SESSION['keyword'];
                    
                 }
-                $query = $con->prepare('SELECT * FROM learned_comment WHERE comment LIKE ?');
+                $query = $con->prepare('SELECT * FROM Learned_Comment WHERE comment LIKE ?');
                 $query->bindValue(1, "%$filter%", PDO::PARAM_STR);
                 $query->execute();
                 
