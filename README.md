@@ -1,6 +1,6 @@
 # KWL (Know What Learn) Application
 
-[Visit this application](http://kwsapp-env.hvxtdpw5gr.us-east-2.elasticbeanstalk.com/htdocs/login.php)
+[Visit KWL application](http://kwsapp-env.hvxtdpw5gr.us-east-2.elasticbeanstalk.com/htdocs/login.php)
 
 This prototype is intended to provide secondary school teachers with a KWL support tool, which accommodates class sizes typically between twenty-five and thirty students. In order to reflect the number of students in such a class, and provide a realistic representation of an e-learning environment, a total of twelve students were created and divided into four separate teams. The usernames, team names and passwords for each student are given in the table below.
 
