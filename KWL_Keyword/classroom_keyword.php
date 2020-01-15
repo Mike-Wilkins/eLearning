@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>KWL +</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="../KWL_Plus/kwl_plus_styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../KWL_plus/kwl_plus_styles.css" />
     <script src="comments.js"></script>
 </head>
 <body>
