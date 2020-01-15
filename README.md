@@ -1,4 +1,5 @@
 # KWL (Know What Learn) Application
+<img src="images/frontend.jpg" width="100" >
 
 [Visit KWL application](http://kwsapp-env.hvxtdpw5gr.us-east-2.elasticbeanstalk.com/htdocs/login.php)
 
@@ -14,6 +15,5 @@ This prototype is intended to provide secondary school teachers with a KWL suppo
 |Jack    |omega|jack123   |   |Mika    |sigma|mika123  |
 
 
-
-
 ![](images/)
+
