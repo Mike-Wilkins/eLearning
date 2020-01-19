@@ -60,8 +60,9 @@
             ?>
                 <img src="<?php echo $symbol?>" style="width: 70px; height: 70px; position: absolute; left: 290px; top: 20px;">
            
-                <div>
-                    <img src="images/KWL_homepage.png" style="width: 350px; height: 110px; position: absolute; left: 770px; top: 0px;">
+                <div class="kwl_homepage_logo">
+                    <img src="images/KWL_homepage.png" style="width: 350px; height: 110px;">
+                   <!-- <img src="images/KWL_homepage.png" style="width: 350px; height: 110px; position: absolute; left: 770px; top: 0px;"> -->
                 </div>
                 
     </div>
@@ -95,12 +96,13 @@
     <div class="kwl_option_display">
        
        <p class="KWL-titles">KWL Team</p>
-       
-       <img src="images/KWL_team_homepage.png" style="width: 220px; height: 125px; margin-left: 125px; margin-top: 23px; margin-bottom: 15px;">
-
+       <div class="kwl_team_logo">
+           <!-- <img src="images/KWL_team_homepage.png" style="width: 220px; height: 125px; margin-left: 125px; margin-top: 23px; margin-bottom: 15px;">-->
+           <img src="images/KWL_team_homepage.png" style="width: 220px; height: 125px">
+       </div>
 <section>
         <div>
-            <input class="KWL-nav-button" style="float: left; margin-left: 100px;" type="button" value="KWL Team" onclick="window.location.href='classroom_team.php'" />
+            <input class="KWL-nav-button" type="button" value="KWL Team" onclick="window.location.href='classroom_team.php'" />
         </div>
         <div>
             <input class="KWL-nav-button" style="margin-left: 25px;" type="button" value="Keyword Support" onclick="window.location.href='KWL_Keyword/classroom_keyword.php'" />
@@ -110,9 +112,7 @@
        <p class="KWL_option_info">
             KWL Team offers students the opportunity to work in groups to explore a specific area of study using the KWL learning framework. 
             The learning environment is designed specifically to enable students to work remotely within the classroom, or independently 
-            at home whilst maintaining a sense of shared ownership throughout the entire learning process.
-       </p> 
-       <p class="KWL_option_info">
+            at home whilst maintaining a sense of shared ownership throughout the entire learning process.<br><br>
             The application supports an additional “Go Solo” feature to facilitate student-centered learning and a resource filtering option to
             allow students to focus on individual avenues of enquiry.  
        </p>
@@ -123,18 +123,18 @@
     <div class="kwl_option_display">
         
         <p class="KWL-titles">KWL+</p>
-        <img src="images/KWL_plus_homepage.png" style="width: 320px; height: 160px; margin-left: 70px;">
-
+<section>
+        <div class="kwl_plus_logo">
+            <img src="images/KWL_plus_homepage.png" style="width: 320px; height: 160px;">
+        </div>
+</section>
         <div>
-            <input class="KWL-nav-button" style="margin-left: 183px;" type="button" value="KWL Team+" onclick="window.location.href='KWL_plus/kwl_plus.php'" />
+            <input class="KWL-plus-nav-button" type="button" value="KWL Team+" onclick="window.location.href='KWL_plus/kwl_plus.php'" />
         </div>
 
-        <p class="KWL_option_info">
+        <p class="KWL_plus_option_info">
           KWL+ extends the core values of team learning by creating an environment, which brings two teams together in order to further encourage and enhance
-          collaborative and co-operative learning.
-       </p>
-
-       <p class="KWL_option_info">
+          collaborative and co-operative learning.<br><br>
        As with the KWL Team option, KWL+ supports additional features such as resource filtering and the “Go Solo” option allowing students the ability 
        to track individual progress and target individual lines of enquiry.
        </p>
@@ -145,38 +145,35 @@
     <div class="kwl_option_display">
        
        <p class="KWL-titles">KWL Custom Team</p>
-       <img src="images/KWL_custom_homepage.png" style="width: 170px; height: 120px; margin-left: 140px; margin-top: 23px; margin-bottom: 15px;">
-
+       <div class="kwl_custom_logo">
+            <img src="images/KWL_custom_homepage.png" style="width: 170px; height: 120px;">
+            <!--<img src="images/KWL_custom_homepage.png" style="width: 170px; height: 120px; margin-left: 140px; margin-top: 23px; margin-bottom: 15px;">-->
+       </div>
        <div>
-            <input class="KWL-nav-button" style="margin-left: 155px;" type="button" value="KWL Custom Team" onclick="window.location.href='Custom_Team/classroom_custom_team.php'" />
+            <input class="KWL-custom-nav-button" type="button" value="KWL Custom Team" onclick="window.location.href='Custom_Team/classroom_custom_team.php'" />
         </div>
 
-       <p class="KWL_option_info">
+       <p class="KWL_custom_option_info">
          KWL Custom Team provides students with the opportunity to create their own team offering a learning environment designed to enhance and 
-         promote co-operative and collaborative team building skills.
-       </p>
-
-       <p class="KWL_option_info">
-        The application supports options for teams working either in pairs or groups of three. In contrast to the KWL Team and KWL+ options, the custom 
-        option is designed specifically to facilitate learners working together in teams with a goal of producing a single collaborative KWL based document.
+         promote co-operative and collaborative team building skills.<br><br>
+         The application supports options for teams working either in pairs or groups of three. In contrast to the KWL Team and KWL+ options, the custom 
+         option is designed specifically to facilitate learners working together in teams with a goal of producing a single collaborative KWL based document.
        </p>
     </div>
 
-<div class="kwl_option_display" style="margin-left: 710px;">
+<div class="mkwl_option_display">
        
        <p class="KWL-titles">mKWL Team Science</p>
-       <img src="images/atom3.png" style="width: 200px; height: 150px; margin-left: 130px; margin-top: 0px; margin-bottom: 15px;">
+       <img class="mkwl_science_logo" src="images/atom3.png">
+       <!--<img src="images/atom3.png" style="width: 200px; height: 150px; margin-left: 130px; margin-top: 0px; margin-bottom: 15px;">-->
 
        <div>
-            <input class="KWL-nav-button" style="margin-left: 175px;" type="button" value="mKWL Team" onclick="window.location.href='mKWL_Team/classroom.php'" />
+            <input class="mKWL-nav-button" type="button" value="mKWL Team" onclick="window.location.href='mKWL_Team/classroom.php'" />
         </div>
 
-       <p class="KWL_option_info">
+       <p class="mKWL_option_info">
          mKWL is a unique adaptation of the original KWL model and is designed specifically to inspire creative thinking and questioning within the field of educational science.
-         The revised edition offers extended facilities to promote and encourage students to formulate a hypothesis and devise experimental methods to test their ideas.
-       </p>
-
-       <p class="KWL_option_info">
+         The revised edition offers extended facilities to promote and encourage students to formulate a hypothesis and devise experimental methods to test their ideas.<br><br>
          In contrast to previous KWL models offered on this site, the initial stages of the mKWL process are based on a learner-centered approach which later expand to incorporate methods of colaborative and
          co-operative learning during the final reflective stages.
         

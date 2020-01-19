@@ -43,10 +43,12 @@
 }
 
 .login_details {
+    text-align: center;
     font-size: 15px;
-    padding:8px 45px;
+    /*padding:8px 45px;*/
+    padding: 2% 12%;
     margin-left: 20%;
-    margin-top: 15px;
+    margin-top: 15%;
     border-radius: 4px;
 }
 
@@ -118,6 +120,10 @@
     margin-left: 10px;
 }
 
+.kwl_homepage_logo {
+    position: absolute;
+    left: 770px; top: 0px;
+}
 
 section {
     margin-left: auto;
@@ -438,6 +444,8 @@ footer {
     padding-bottom: 12px;
     padding-left: 45px;
 }
+
+/*-----------------------------------------------------------------------------------------*/
 .kwl_option_display {
     float: left; 
     width: 27%;
@@ -451,13 +459,98 @@ footer {
     margin-right: 8px;
     min-height: 800px;
 }
+
+.mkwl_option_display {
+    float: left; 
+    width: 27%;
+    background-color: rgb(252, 248, 252);
+    padding: 10px;
+    border-radius: 10px;
+    border: solid rgb(153, 18, 153) 2px;
+    box-shadow: 3px 3px #858383;
+    margin-top: 20px;
+    margin-left: 710px;
+    margin-right: 8px;
+    min-height: 800px;
+}
 .KWL-titles {
     text-align: center;
     font-size: 32px;
     color: rgb(128, 5, 145);
 }
 
+.kwl_team_logo {
+    width: 220px; 
+    height: 125px; 
+    margin-left: 125px; 
+    margin-top: 23px; 
+    margin-bottom: 15px;
+}
+
+.kwl_plus_logo {
+    width: 320px; 
+    height: 160px; 
+    margin-left: 70px;
+}
+
+.kwl_custom_logo {
+    width: 170px; 
+    height: 120px; 
+    margin-left: 140px; 
+    margin-top: 23px; 
+    margin-bottom: 15px;
+}
+
+.mkwl_science_logo {
+    width: 200px; 
+    height: 150px; 
+    margin-left: 130px; 
+    margin-top: 0px; 
+    margin-bottom: 15px;
+}
+
+
 .KWL-nav-button {
+    float: left; 
+    margin-left: 100px;
+    color: aliceblue;
+    background-color: rgb(128, 167, 240);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+   
+}
+.KWL-plus-nav-button {
+    float: left; 
+    margin-left: 183px;
+    color: aliceblue;
+    background-color: rgb(128, 167, 240);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+   
+}
+
+.KWL-custom-nav-button {
+    float: left; 
+    margin-left: 160px;
+    color: aliceblue;
+    background-color: rgb(128, 167, 240);
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+   
+}
+
+.mKWL-nav-button {
+    float: left; 
+    margin-left: 175px;
     color: aliceblue;
     background-color: rgb(128, 167, 240);
     font-size: 15px;
@@ -474,8 +567,31 @@ footer {
 .KWL_option_info {
     font-size: 20px;
     text-align: center;
-    margin: 40px;
+    margin: 20px;
+    padding-top: 10px;
 }
+
+.KWL_plus_option_info {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    padding-top: 40px;
+}
+
+.KWL_custom_option_info {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    padding-top: 75px;
+}
+
+.mKWL_option_info {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    padding-top: 65px;
+}
+
 
 
 .keyword_invalid {
@@ -563,4 +679,178 @@ footer {
 }
 .solo_button:hover {
     background-color: rgb(100, 108, 226);
+}
+
+/* MEDIA QUERIES */
+
+
+/* Macbook Retina Laptop **********************************************************************************/
+
+@media only screen
+and (max-width : 1800px) and (min-width : 1400px) {
+    .login_details {
+        text-align: center;
+        font-size: 15px;
+        /*padding:8px 45px;*/
+        /*padding: 4px 34px;*/
+        padding: 2% 22%;
+        margin-left: 1px;
+        margin-top: 15%;
+        border-radius: 4px;
+    }
+
+    #login_submit {
+        color: aliceblue;
+        background-color: rgb(128, 167, 240);
+        font-size: 15px;
+        padding: 4px 34px;
+        border-radius: 10px;
+        margin-left: 32%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .kwl_homepage_logo {
+        left: 570px; top: 0px;
+    }
+
+    .kwl_team_logo {
+        margin-left: 60px; 
+        margin-top: 23px; 
+        margin-bottom: 15px;
+    }
+
+    .kwl_plus_logo {
+        margin-left: 2px;
+    }
+
+    .kwl_custom_logo {
+        width: 170px; 
+        height: 120px; 
+        margin-left: 85px; 
+        margin-top: 23px; 
+        margin-bottom: 15px;
+    }
+
+    .KWL-nav-button {
+        float: left; 
+        margin-left: 37px;
+        color: aliceblue;
+        background-color: rgb(128, 167, 240);
+        font-size: 15px;
+        padding: 8px;
+        border-radius: 10px;
+        margin-top: 12px;
+        margin-bottom: 0px;
+       
+    }
+
+    .KWL-plus-nav-button {
+        float: left; 
+        margin-left: 120px;
+        color: aliceblue;
+        background-color: rgb(128, 167, 240);
+        font-size: 15px;
+        padding: 8px;
+        border-radius: 10px;
+        margin-top: 12px;
+        margin-bottom: 0px;
+       
+    }
+
+    .KWL-custom-nav-button {
+        float: left; 
+        margin-left: 100px;
+        color: aliceblue;
+        background-color: rgb(128, 167, 240);
+        font-size: 15px;
+        padding: 8px;
+        border-radius: 10px;
+        margin-top: 12px;
+        margin-bottom: 0px;
+       
+    }
+    .mKWL-nav-button {
+        float: left; 
+        margin-left: 205px;
+        color: aliceblue;
+        background-color: rgb(128, 167, 240);
+        font-size: 15px;
+        padding: 8px;
+        border-radius: 10px;
+        margin-top: 12px;
+        margin-bottom: 0px;
+       
+    }
+    .kwl_option_display {
+        float: left; 
+        width: 27%;
+        background-color: rgb(252, 248, 252);
+        padding: 10px;
+        border-radius: 10px;
+        border: solid rgb(153, 18, 153) 2px;
+        box-shadow: 3px 3px #858383;
+        margin-top: 20px;
+        margin-left: 8px;
+        margin-right: 8px;
+        min-height: 800px;
+    }
+    .mkwl_option_display {
+        float: left; 
+        width: 40%;
+        background-color: rgb(252, 248, 252);
+        padding: 10px;
+        border-radius: 10px;
+        border: solid rgb(153, 18, 153) 2px;
+        box-shadow: 3px 3px #858383;
+        margin-top: 20px;
+        margin-left: 450px;
+        margin-right: 8px;
+        min-height: 700px;
+    }
+    .mkwl_science_logo {
+        width: 200px; 
+        height: 150px; 
+        margin-left: 160px; 
+        margin-top: 0px; 
+        margin-bottom: 15px;
+    }
+    
+
+
+.myteams {
+    background-color: rgb(246, 248, 250);
+    border-radius: 10px;
+    border: solid rgb(245, 213, 245) 2px;
+    padding: 0px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+}
+}
+
+/* Windows Laptop *********************************************/
+
+@media only screen
+and (max-width : 1400px) {
+    .login_details {
+        text-align: center;
+        font-size: 15px;
+        /*padding:8px 45px;*/
+        padding: 2% 15%;
+        margin-left: 1px;
+        margin-top: 15%;
+        border-radius: 4px;
+    }
+
+    #login_submit {
+        /*color: aliceblue;*/
+        color:aliceblue;
+        background-color: rgb(128, 167, 240);
+        font-size: 15px;
+        padding: 4px 34px;
+        border-radius: 10px;
+        margin-left: 27%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        
+    }
 }

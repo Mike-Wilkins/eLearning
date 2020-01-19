@@ -43,15 +43,15 @@ if(isset($_POST['submit'])){
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Login</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/styles1.css" />
     <script src="main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header id="login_header">
 
     </header>
-    
+
     <section>
         <form id="login_form" method="post">
             <p id="login_title">Login</p>
