@@ -1,6 +1,6 @@
-<img src="images/platforms.png" width="400" >
+# Overview
 
-# eLearning
+<img src="images/platforms.png" width="400" >
 
 [Visit KWL application](http://kwsapp-env.hvxtdpw5gr.us-east-2.elasticbeanstalk.com/htdocs/login.php)
 
