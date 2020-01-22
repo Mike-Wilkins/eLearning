@@ -1,6 +1,11 @@
-# Overview
-
 <img src="images/platforms.png" width="400" >
+
+# Features & Login Details
+-Educational desktop application based on the KWL learning approach
+-Allows students to work in pre assigned groups or create their own custom group
+-
+
+
 
 [Visit KWL application](http://kwsapp-env.hvxtdpw5gr.us-east-2.elasticbeanstalk.com/htdocs/login.php)
 
