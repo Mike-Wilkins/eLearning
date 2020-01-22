@@ -2,10 +2,11 @@
 
 # Features & Login Details
 * Educational desktop application based on the KWL learning approach
-* Allows students to work in pre assigned groups or create their own custom group
+* Allows students to work in pre assigned groups or to create their own custom groups
+* Interactions can take place both face-to-face in the classroom, or remotely
 
-
-
+To access this application, choose a username, password and team name provided in the table
+and log in using the link below.
 
 [Visit KWL application](http://kwsapp-env.hvxtdpw5gr.us-east-2.elasticbeanstalk.com/htdocs/login.php)
 
