@@ -5,7 +5,7 @@
 * Allows students to work in pre assigned groups or to create their own custom groups
 * Interactions can take place both face-to-face in the classroom, or remotely
 
-<a href="https://imgflip.com/gif/3onto3"><img src="https://i.imgflip.com/3onto3.gif" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/3onvvs"><img src="https://i.imgflip.com/3onvvs.gif" title="made at imgflip.com"/></a>
 
 To access this application, choose a username, password and team name provided in the table
 and log in using the link below.
