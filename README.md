@@ -7,7 +7,7 @@
 
 <img src="images/kwl_demo_p1.png" width="700" >
 
-<a href="https://imgflip.com/gif/3onvvs"><img src="https://i.imgflip.com/3onvvs.gif" title="made at imgflip.com"/></a>
+
 
 To access this application, choose a username, password and team name provided in the table
 and log in using the link below.
