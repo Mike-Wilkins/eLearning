@@ -5,9 +5,7 @@
 * Allows students to work in pre assigned groups or to create their own custom groups
 * Interactions can take place both face-to-face in the classroom, or remotely
 
-<video width="120" height="140" controls>
-  <source src="images/demo_vid" type="video/mp4">
-</video>
+![Demo](images/demo_vid.mp4)
 
 To access this application, choose a username, password and team name provided in the table
 and log in using the link below.
