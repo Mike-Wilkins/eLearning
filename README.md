@@ -5,7 +5,7 @@
 * Allows students to work in pre assigned groups or to create their own custom groups
 * Interactions can take place both face-to-face in the classroom, or remotely
 
-<img src="images/kwl_demo_p1" width="600" >
+<img src="images/kwl_demo_p1.png" width="600" >
 
 <a href="https://imgflip.com/gif/3onvvs"><img src="https://i.imgflip.com/3onvvs.gif" title="made at imgflip.com"/></a>
 
