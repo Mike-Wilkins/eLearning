@@ -5,7 +5,7 @@
 * Allows students to work in pre assigned groups or to create their own custom groups
 * Interactions can take place both face-to-face in the classroom, or remotely
 
-<video width="320" height="240" controls>
+<video width="120" height="140" controls>
   <source src="images/demo_vid" type="video/mp4">
 </video>
 
