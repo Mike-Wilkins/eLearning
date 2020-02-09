@@ -6,7 +6,7 @@
 * Interactions can take place both face-to-face in the classroom, or remotely
 
 <img src="images/kwl_demo_p1.png" width="700" >
-
+<img src="images/kwl_demo_p2.png" width="800" >
 
 
 To access this application, choose a username, password and team name provided in the table
